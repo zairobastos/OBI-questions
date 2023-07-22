@@ -37,3 +37,20 @@ A primeira linha da entrada contém três números inteiros N, M e K, respectiva
 ### Saída
 
 Seu programa deve produzir uma única linha, contendo uma única cadeia de caracteres, a senha correta.
+
+### Exemplo
+
+| Entrada | Saída |
+| :-----: | :----: |
+|  6 2 2  | xbyyc |
+| x#yy#z |        |
+|   ab   |        |
+|   cd   |        |
+|    3    |        |
+
+| Entrada | Saída |
+| :-----: | :----: |
+|  4 1 3  |  bgof  |
+|  #gof  |        |
+|   abc   |        |
+|    2    |        |

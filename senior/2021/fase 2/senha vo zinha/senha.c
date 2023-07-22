@@ -58,3 +58,31 @@ int main() {
 
     return 0;
 }
+
+/*
+n = 6
+m = 2
+k = 2
+
+s = x#yy#z
+possib = []
+possib = ['ab','cd']
+p = 3 - 1 = 2
+j = 2 - 1 = 1
+
+x#yy#z
+012345
+
+s[4] == '#'
+s = "x#yy"+possib[1][0]+"z"
+s = "x#yycz"
+p = 1
+j = 0
+
+s[1] == '#'
+s = "x"+possib[0][1]+"yycz"
+s = "xbyycz"
+p = 0
+j = -1
+
+*/
