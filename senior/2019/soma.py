@@ -20,5 +20,6 @@ sequence = list(map(int, input().split()))
 # Chamada da função para contar os retângulos
 num_rectangles = count_rectangles(N, K, sequence)
 
+
 # Impressão do resultado
 print(num_rectangles)

@@ -22,7 +22,9 @@ p -= 1
 j = m - 1
 
 # Loop para percorrer a string s de trás para frente (da direita para a esquerda).
-for i in range(n-1, -1, -1):
+for i in range(n-1, -1, -1):# Loop para percorrer a string s de trás para frente (da direita para a esquerda).
+# Loop para percorrer a string s de trás para frente (da direita para a esquerda).
+
     if s[i] == '#':  # Se o caractere atual em s for '#':
         # Substitui o caractere '#' na posição i por possib[j][p % k], selecionando a letra da lista de possibilidades de acordo com o valor de p e k.
         s = s[:i] + possib[j][p % k] + s[i+1:]
